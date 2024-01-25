@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /* display: flex;
+        flex-direction: column;
+        flex-wrap: wrap; */
+    background-color: black;
+}
+
+.main {
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/ca6a7616-0acb-4bc5-be25-c4deef0419a7/c5af601a-6657-4531-8f82-22e629a3795e/IN-en-20231211-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 644px;
+    position: relative;
+}
+
+.main .box {
+    height: 644px;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 70vw;
+    margin: auto;
+    diysplay: flex;
+    justif-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+nav img {
+    color: red;
+    width: 170px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 55px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.separation {
+    height: 11px;
+    background-color: rgb(35, 34, 34);
+    position: relative;
+    z-index: 20;
+}
+
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 10px;
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#eng-btn {
+    background-color: rgba(23, 23, 23, 0.5);
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 3px 15px;
+}
+
+.main input {
+    padding: 15px 35px 10px 10px;
+    border-radius: 5px;
+    background-color: rgba(23, 23, 23, 0.5);
+    color: white;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 10px 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-red span {
+    font-weight: 500;
+}
+
+
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 15px;
+
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#textboxid {
+    width: 350px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 4px;
+    border: 1px solid white;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 555px;
+}
+
+
+section.first>div :nth-child(1) {
+    font-size: 44px;
+    font-weight: bolder;
+}
+
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.faq {
+    background: black;
+    color: white;
+    padding: 34px;
+}
+
+.faqbox {
+    background-color: #3b3939;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 65vw;
+    cursor: pointer;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+    color: white;
+}
+
+svg {
+    filter: invert(1);
+}
+
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 14px;
+
+}
+
+.question {
+    margin: 10px;
+    padding: 20px 0px 20px 0px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+footer span {
+    padding: 34px 0px;
+}
+
+
+.footer a {
+    color: white;
+    font-size: 14px;
+    gap: 23px;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 23px;
+}
+
+
+
+
+
+@media screen and (max-width: 1300px) {
+
+
+    nav {
+        margin: auto;
+        max-width: 90vw;
+        height: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav img {
+        margin: 15px 0px 0px 0px;
+        width: 100px;
+    }
+
+    .first {
+        flex-wrap: wrap;
+    }
+
+    .secImg img {
+        width: 305px;
+    }
+
+    .secImg video {
+        width: 305px;
+    }
+
+    .hero> :nth-child(1) {
+        font-size: 30px;
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .hero> :nth-child(3) {
+        font-size: 18px;
+    }
+
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:2px ;
+        margin: 0px 0px 30px 0px;
+    }
+
+    #textboxid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 130px;
+        height: 30px;
+        font-size: 17px;
+        border-radius: 4px;
+        border: 1px solid white;
+    }
+
+
+    section.first>div :nth-child(1) {
+        font-size: 34px;
+        margin: 20px 0px 0px 0px;
+        line-height: 40px;
+        font-weight: bolder;
+    }
+
+
+    section.first>div :nth-child(2) {
+        font-size: 20px;
+        margin: 0px 0px 30px 0px;
+
+
+    }
+
+    .faq h2 {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    footer {
+        max-width: 90vw;
+        padding: 75px 0;
+    }
+
+    .footer-item {
+        align-items: center;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 1300px) {
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+}
+
+
+.footer a {
+    font-size: 14px;
+    color: white;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+
+@media screen and (max-width: 500px) {
+    .main {
+        background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/ca6a7616-0acb-4bc5-be25-c4deef0419a7/c5af601a-6657-4531-8f82-22e629a3795e/IN-en-20231211-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+        background-position: center center;
+        background-size: max(1200px, 100vw);
+        background-repeat: no-repeat;
+        height: 644px;
+        position: relative;
+    }
+
+    .main .box {
+        height: 644px;
+        width: 100%;
+        opacity: 0.69;
+        position: absolute;
+        top: 0;
+        background-color: black;
+    }
+
+    .hero {
+        gap: 10px;
+    }
+    .hero> :nth-child(1) {
+        font-size: 25px;
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .hero> :nth-child(3) {
+        font-size: 18px;
+    }
+
+    #textboxid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 130px;
+        height: 30px;
+        font-size: 17px;
+        border-radius: 4px;
+        border: 1px solid white;
+    }
+
+    .faqbox {
+        background-color: #3b3939;
+        font-size: 18px;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 15px;
+        margin: 5px auto;
+        max-width: 65vw;
+        cursor: pointer;
+    }
+}
